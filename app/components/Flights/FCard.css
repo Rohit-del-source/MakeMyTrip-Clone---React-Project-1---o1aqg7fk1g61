@@ -1,0 +1,56 @@
+/* FCard.css */
+
+.flights-container {
+    margin-top: 20px;
+  }
+  
+  .header {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .options {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .filter-options, .sort-options {
+    width: 45%;
+  }
+  
+  .filter-options button, .sort-options button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px 12px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .filter-options button:hover, .sort-options button:hover {
+    background-color: #0056b3;
+  }
+  
+  .flight-card {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .flight-card h3 {
+    margin-bottom: 10px;
+  }
+  
+  .flight-card p {
+    margin-bottom: 5px;
+  }
+  
